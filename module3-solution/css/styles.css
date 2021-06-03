@@ -90,6 +90,30 @@ body {
 }
 /* END HEADER */
 
+#section {
+  position: relative;
+  background-color: #5f9ea0;
+  border: 3px solid black;
+  padding: 5px auto 5px;
+  height: 1000px;
+}
+#section-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  color: black;
+}
+#our-menu {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+p {
+  text-align: center;
+  padding: 10px 25px 25px 25px;
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 }
